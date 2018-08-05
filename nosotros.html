@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/reseter.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	  
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Grupo Blumos</title>
+    
+    <style>
+        body {
+            background: url('img/bg-nosotros.jpg') center top no-repeat;
+        }
+        section {
+            height: 720px;
+        }
+        #secNosotros {
+            background: url('img/bg-nos-azul.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            margin-bottom: -42px;
+            z-index: 2;
+            position: relative;
+        }
+        #secHistoria {
+            background: url('img/bg-historia.jpg') center top no-repeat;
+            z-index: 1;
+        }
+        #secGrupo {
+           height: auto;
+        }
+        #secInter {
+            background: url('img/america.png') top left no-repeat;
+            background-size: 40%;
+            height: auto;
+            padding: 5% 0;
+        }
+        .der-iner {
+            margin: 15% 0;
+        }
+        .col-grupo {
+            margin-top:-100px;
+        }
+        .h720 {
+            height: 720px;
+        }
+        .lead {
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .display-5 {
+            color: #214295;
+            font-size: 38px;
+            line-height: 43px;
+        }
+        .curva-texto {
+            margin-left: -50px;
+        }
+        .cuadrito {
+            position: relative;
+            width: 100%;
+        }
+        .cuadrito:hover .fondo {
+            opacity: 1;
+        }
+        .cuadrito:hover .fondo2 {
+            opacity: 1;
+        }
+
+        .img-cuadrito {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .fondo {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background: url('img/empresas/01over.png');
+            background-size: cover;
+        }
+        .fondo2 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background: url('img/empresas/02over.png');
+            background-size: cover;
+        }
+        .textito {
+            color: black;
+            position: absolute;
+            font-size: 12px;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: left;
+        }
+        .prefooter {
+            background: #15945a;
+            height: 30px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+        <!-- Page Content -->
+        <div id="content">
+
+            <!--Nav-->
+            <nav class="navbar navbar-expand-lg int">
+                <div class="container-fluid">
+                    <!--<button type="button" id="sidebarCollapse" class="btn btn-default">
+                        <i class="fas fa-align-left"></i>
+                    </button>-->
+                    <img src="img/menu.svg" alt="Menu" id="sidebarCollapse" class="">
+                    <!--
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>-->
+                    <a class="navbar-brand m-3 mr-5 mt-5 float-right" href="#">
+                      <img src="img/logo.svg" alt="Blumos" class="w-100">
+                  </a>
+                </div>
+            </nav>
+
+            <!--Contenido Page-->
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col">
+                        <h6 class="pb-3">Nosotros</h6>
+                        <p class="display-5 pt-2">Somos una empresa familiar dedicada a contribuir al desarrollo de la industria nacional</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/curva-page.svg" alt="" class="curva-texto img-fluid">
+                        <p>Queremos ser la mejor empresa comercializadora de soluciones integrales y altamente especializadas a través de propuestas innovadoras. Ya próximos a pasar a la tercera generación, mantenemos y promovemos el espíritu familiar, el trabajo en equipo, la pasión por los detalles y el servicio a nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Nosotros-->
+            <section id="secNosotros">
+                <div class="container">
+                    <div class="row">
+                        <div class="h720 d-flex align-items-center">
+                            <div class="col-2">
+                                <img src="img/col-izq-img.png" alt="img-fluid">
+                            </div>
+                            <div class="col-8">
+                                <p class="lead">El 1º de agosto de 1945, Guillermo y Rodolfo Blum fundaron Blum Hermanos Ltda; la primera empresa con la que comenzaríamos esta larga trayectoria, la cual se encargaba de importar y comercializar productos químicos.</p>
+                            </div>
+                            <div class="col-2">
+                                    <img src="img/col-der-img.png" alt="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Historia-->
+            <section id="secHistoria">
+                <div class="container py-5 h720 d-flex align-items-center">
+                    <div class="row ">
+                        <div class="col-5 align-self-start">
+                            <h2 class="text-center">Nuestra historia</h2>
+                        </div>
+                        <div class="col-1">
+                            <img src="img/curva-horizontal.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <p class="pt-4">En la década de los ’60, Blum Hermanos Ltda. se consolida y se transforma en una de las principales empresas del rubro, con la mayor cantidad de productos en el mercado nacional.<br>
+                            Con la apertura económica de Chile, se retoma la senda del crecimiento y esta empresa se concentra en especialidades químicas e ingredientes para la industria alimentaria y farmacéutica pasando a llamarse Blumos S.A.	<br>
+                            Al año 2000, nuestra empresa crece sostenidamente y se convierte en una de las principales abastecedoras de ingredientes especiales para la industria alimentaria de Chile; lugar que mantenemos actualmente ya entrando en la tercera generación como Blumos Ltda. La tradición familiar, la calidad de nuestros productos, la constante innovación y el trabajo “duro y bien hecho” de todos los colaboradores, son los pilares fundamentales del éxito y reconocimiento de Blumos en el mercado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Grupo-->
+            <section id="secGrupo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 pt-5 mt-5">
+                            <h2 class="pb-5">Nuestro grupo</h2>
+                            <p class="pl-md-5 p-3">
+                                Somos una empresa familiar dedicada a contribuir al desarrollo de la industria nacional. Queremos ser la mejor empresa comercializadora de soluciones integrales y altamente especializadas a través de propuestas innovadoras. Ya próximos a pasar a la tercera generación, mantenemos y promovemos el espíritu familiar, el trabajo en equipo, la pasión por los detalles y el servicio a nuestros clientes.
+                            </p>
+                        </div>
+                        <div class="col-6 col-grupo">
+                            <img src="img/img-grupo.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="pb-3">Empresas</h6>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/curva-page.svg" alt="" class="curva-texto img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!--Empresas-->
+                <div class="container mt-3">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-5 pt-3">
+                            <div class="cuadrito">
+                                <img src="img/empresas/02blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo2">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/02blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo2">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/02blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo2">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-5 pt-5">
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cuadrito">
+                                <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
+                                <div class="fondo">
+                                    <div class="textito w-75">
+                                        <h6>Blumos</h6>
+                                        Desarrollamos y producimos a partir de ingredientes alimentarios, funcionales y sabores. Contamos con la certificación ISO 22.000:2005 que nos permite ofrecer soluciones " Tailor made" de reducción o reemplazo de azúcar, sal, calorías, materia grasa, huevo y extensión de vida útil. Además, estamos presentes en la industria de bebidas, panadería y pastelería, cecinas, lácteos, confites y muchos más.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Internacional-->
+            <section id="secInter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Internacional</h2>
+                        </div>
+                    </div>
+                    <div class="row der-iner">
+                        <div class="col-6"></div>
+                        <div class="col-5">
+                            <img src="img/ico-plantas.png" alt="" align="left" class=" pr-1"> <h5 class="pt-2">Plantas</h5>
+                            <img src="img/ico-oficinas.png" alt="" align="left" class=" pr-1"><h5 class="pt-2">Oficinas comerciales</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-5">
+                            <h5 class="pb-4">Contamos con presencia internacional desde el año 2011, cuando la compañía se asocia con una empresa joven en Sao Paulo, Brasil, formando R&S Blumos Ingredientes. </h5>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3"></div>
+                        <div class="col-7">
+                            <p>En 2015 forma Sonutra Blumos en Lima, Perú Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-3">
+                            <h5 class="pb-4">Perú</h5>
+                            <p><strong>Sonutra Blumos</strong></p>
+                            <p>
+                                Ofelia Ctarranza<br>
+                                ofelia.carranza@sonutrablumos.com<br>
+                                Av. Ricardo Palma<br>
+                                1280 Of. 101<br>
+                                Miraflores<br>
+                            </p>
+                            <p>
+                                Tel: <strong>+ (51) 1 4445492</strong>
+                                <a href="">www.sonutrablumos.com</a>
+                            </p>
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-3">
+                                <h5 class="pb-4">Brasil</h5>
+                                <p><strong>R&S Btlumos</strong></p>
+                                <p>
+                                    Fernando Santana - Eduardo Perego<br>
+                                    fernando@rsblumos.com.br - eduardo@rsblumos.com.br<br>
+                                    Rua Santa Mónica, 1365<br>
+                                    Parque Industrial San José<br>
+                                    Cotia - SP<br>
+                                </p>
+                                <p>
+                                    Tel: <strong>+ (55) 11 46141816</strong>
+                                    <a href="">www.rsblumos.com.br</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div><!--Fin content-->
+    </div><!--Fin wrapper-->
+
+   <!--Footer-->
+	<footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 ml-auto prefooter"></div>
+            </div>
+        </div>
+        <div class="container-fluid container-footer pt-4 pb-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="img/logo-f.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="text-center pt-3">Blumos todos los derechos reservados - 2018</p>
+                    </div>
+                    <div class="col-lg-2 d-none d-lg-block">
+                        <input class="form-control buscar text-center" type="text" placeholder="">
+                    </div>
+                    <div class="col-lg-2 d-none d-lg-inline-flex">
+                        <div class="idioma-footer"><a href="#">ES</a></div>
+                        <div class="idioma-footer"><a href="#">EN</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+		jQuery(document).ready(function() {
+          
+            jQuery("#sidebarCollapse").click(function(){
+                jQuery(".navbar-brand").css("opacity", 0);
+				jQuery("body").css({ "overflow" : "hidden"});
+				jQuery( ".contenedor" ).show(300);
+                jQuery( ".contenedor" ).animate({
+                    "opacity": 1 }, 600 );
+                jQuery( ".lateral" ).animate({
+                   "marginLeft": "0" }, 400 );
+                jQuery( ".central" ).animate({
+                   "marginLeft": "-2%" }, 300 );
+
+            });
+			
+			jQuery(".cerrar").click(function(){
+                jQuery(".navbar-brand").css("opacity", 1);
+                jQuery( ".contenedor" ).animate({
+                    "opacity": 0 }, "slow" );
+                jQuery( ".lateral" ).animate({
+                   "marginLeft": "-150px" }, 100 );
+                jQuery( ".central" ).animate({
+                   "marginLeft": "-300px" }, 100 );
+				jQuery("body").css({ "overflow" : "auto"}).delay(300);
+				jQuery( ".contenedor" ).css({ "display" : "none"});
+            });
+            
+	 
+		 });
+       
+    </script>
+       
+  </body>
+
+</html>
