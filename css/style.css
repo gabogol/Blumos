@@ -25,6 +25,9 @@ body {
     background-size: cover;
     -webkit-overflow-scrolling: touch;
     color: #5b5b5b;
+    height: 100%;
+    overflow-x: hidden !important;
+    overflow-y: scroll; /* has to be scroll, not auto */
 }
 
 

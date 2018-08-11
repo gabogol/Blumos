@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/reseter.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -23,8 +23,12 @@
         body {
             background: url('img/bg-valores.jpg') center top no-repeat;
         }
-        section {
+        article {
             height: 700px;
+        }
+        article h3 {
+            font-weight: 600;
+            font-size: 43px;
         }
         #secCalidad {
             background: url('img/secCalidad.jpg') center top no-repeat;
@@ -53,184 +57,167 @@
             background: #15945a;
             height: 30px;
         }
+
+        @media (max-width: 768px) {
+            article {
+                height: auto;
+            }
+        }
+        @media (max-width:576px) {
+            body {
+                position: absolute;
+            }
+        }
     </style>
 
   </head>
   <body>
+      
     <div class="wrapper">
         <!-- Page Content -->
         <div id="content">
-
-            <!--Nav-->
-            <nav class="navbar navbar-expand-lg int">
+             <!--Nav-->
+          <nav class="navbar navbar-expand-lg int">
                 <div class="container-fluid">
                     <!--<button type="button" id="sidebarCollapse" class="btn btn-default">
                         <i class="fas fa-align-left"></i>
                     </button>-->
-                    <img src="img/menu.svg" alt="Menu" id="sidebarCollapse" class="">
+                    <img src="http://www.myapp.cl/clientes/blumos/wp-content/themes/Blumos-2018/img/menu.svg" alt="Menu" id="sidebarCollapse" class="">
                     <!--
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>-->
                     <a class="navbar-brand m-3 mr-5 mt-5 float-right" href="#">
-                      <img src="img/logo.svg" alt="Blumos" class="w-100">
+                      <img src="http://www.myapp.cl/clientes/blumos/wp-content/themes/Blumos-2018/img/logo.svg" alt="Blumos" class="w-100">
                   </a>
                 </div>
             </nav>
+           
 
             <!--Cabecera Page-->
             <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2 class="pt-2 display-2">Valores</h2>
-                        </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="pt-2 display-2">Valores</h2>
                     </div>
                 </div>
+            </div>
 
             <!--Contenido Page-->
 
             <!---Calidad-->
-            <section id="secCalidad">
+            <article id="secCalidad">
                 <div class="container mt-5">
                     <div class="row pt-5">
-                        <div class="col-4"><img src="img/img-calidad.png" alt="" class="img-fluid"></div>
-                        <div class="col-1"></div>
-                        <div class="col-7 text-center px-5">
-                            <h3 class="display-4 pb-4">Calidad</h3>
+                        <div class="col-md-4 offset-md-1">
+                            <img src="img/img-calidad.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-7 text-center px-5">
+                            <h3 class="pb-4">Calidad</h3>
                             <p class="lead">Nuestra proactividad nos lleva a buscar resultados óptimos con <span class="texto-color">alegría y pasión</span> por los detalles.</p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!---Trabajo-->
-            <section id="secTrabajo">
+            <article id="secTrabajo">
                 <div class="container">
                     <div class="row pt-5">
-                        <div class="col-7 text-center px-5">
-                            <h3 class="display-4 pb-4">Trabajo en Equipo</h3>
+                        <div class="col-md-7 text-center px-5">
+                            <h3 class="pb-4">Trabajo en Equipo</h3>
                             <p class="lead">Unimos nuestros esfuerzos para entregar <span class="texto-color">la mejor y más alta</span> categoría de productos y servicios.</p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
-                        <div class="col-4"><img src="img/img-trabajo.jpg" alt="" class="img-fluid"></div>
-                        <div class="col-1"></div>
+                        <div class="col-md-4 offset-md-1"><img src="img/img-trabajo.jpg" alt="" class="img-fluid"></div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!---Eficiencia-->
-            <section id="secEficiencia">
+            <article id="secEficiencia">
                 <div class="container mt-5">
                     <div class="row pt-5">
-                        <div class="col-4"><img src="img/img-calidad.png" alt="" class="img-fluid"></div>
-                        <div class="col-1"></div>
-                        <div class="col-7 text-center px-5">
-                            <h3 class="display-4 pb-4">Eficiencia</h3>
+                        <div class="col-md-4 offset-md-1"><img src="img/img-calidad.png" alt="" class="img-fluid"></div>
+                        <div class="col-md-7 text-center px-5">
+                            <h3 class="pb-4">Eficiencia</h3>
                             <p class="lead"> <span class="texto-color">Optimizamos todos los procesos</span> para cumplir a cabalidad con los requerimientos de nuestros clientes.</p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!---Confianza-->
-            <section id="secConfianza">
+            <article id="secConfianza">
                 <div class="container">
                     <div class="row pt-5">
-                        <div class="col-7 text-center px-5">
-                            <h3 class="display-4 pb-4">Confianza</h3>
+                        <div class="col-md-7 text-center px-5">
+                            <h3 class="pb-4">Confianza</h3>
                             <p class="lead">Cultivamos el respeto, la humildad y por sobretodo, <span class="texto-color">la lealtad en nuestras relaciones humanas.</span></p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
-                        <div class="col-4"><img src="img/img-confianza.jpg" alt="" class="img-fluid"></div>
-                        <div class="col-1"></div>
+                        <div class="col-md-4 offset-md-1"><img src="img/img-confianza.jpg" alt="" class="img-fluid"></div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!---Responsabilidad-->
-            <section id="secResponsabilidad">
+            <article id="secResponsabilidad">
                     <div class="container mt-5">
                         <div class="row pt-5">
-                            <div class="col-4"><img src="img/img-resp.jpg" alt="" class="img-fluid"></div>
-                            <div class="col-1"></div>
-                            <div class="col-7 text-center px-5">
-                                <h3 class="display-4 pb-4">Responsabilidad</h3>
+                            <div class="col-md-4 offset-md-1">
+                                <img src="img/img-resp.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-7 text-center px-5">
+                                <h3 class="pb-4">Responsabilidad</h3>
                                 <p class="lead"> Nos preocupamos por nuestro entorno y las personas, <span class="texto-color">fomentando el reciclaje y la inclusión</span> de colaboradores con habilidades diferentes.</p>
                                 <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                             </div>
                         </div>
                     </div>
-                </section>
-            
+                </article>
+
+
+                <!--Footer-->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4 ml-auto prefooter"></div>
+                        </div>
+                    </div>
+                    <div class="container-fluid container-footer pt-4 pb-5">
+                        <div class="container">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-3 text-center">
+                                    <img src="img/logo-f.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="text-center pt-3">Blumos todos los derechos reservados - 2018</p>
+                                </div>
+                                <div class="col-md-2 d-none d-lg-block">
+                                    <input class="form-control buscar text-center" type="text" placeholder="">
+                                </div>
+                                <div class="col-md-2 d-none d-lg-inline-flex">
+                                    <div class="idioma-footer"><a href="#">ES</a></div>
+                                    <div class="idioma-footer"><a href="#">EN</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
         </div>
     </div>
-   <!--Footer-->
-	<footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 ml-auto prefooter"></div>
-            </div>
-        </div>
-        <div class="container-fluid container-footer pt-4 pb-5">
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-3 text-center">
-                        <img src="img/logo-f.svg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-5">
-                        <p class="text-center pt-3">Blumos todos los derechos reservados - 2018</p>
-                    </div>
-                    <div class="col-lg-2 d-none d-lg-block">
-                        <input class="form-control buscar text-center" type="text" placeholder="">
-                    </div>
-                    <div class="col-lg-2 d-none d-lg-inline-flex">
-                        <div class="idioma-footer"><a href="#">ES</a></div>
-                        <div class="idioma-footer"><a href="#">EN</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     
-    <script>
-		jQuery(document).ready(function() {
-          
-            jQuery("#sidebarCollapse").click(function(){
-                jQuery(".navbar-brand").css("opacity", 0);
-				jQuery("body").css({ "overflow" : "hidden"});
-				jQuery( ".contenedor" ).show(300);
-                jQuery( ".contenedor" ).animate({
-                    "opacity": 1 }, 600 );
-                jQuery( ".lateral" ).animate({
-                   "marginLeft": "0" }, 400 );
-                jQuery( ".central" ).animate({
-                   "marginLeft": "-2%" }, 300 );
-
-            });
-			
-			jQuery(".cerrar").click(function(){
-                jQuery(".navbar-brand").css("opacity", 1);
-                jQuery( ".contenedor" ).animate({
-                    "opacity": 0 }, "slow" );
-                jQuery( ".lateral" ).animate({
-                   "marginLeft": "-150px" }, 100 );
-                jQuery( ".central" ).animate({
-                   "marginLeft": "-300px" }, 100 );
-				jQuery("body").css({ "overflow" : "auto"}).delay(300);
-				jQuery( ".contenedor" ).css({ "display" : "none"});
-            });
-            
-	 
-		 });
-       
-    </script>
+   
        
   </body>
 

@@ -23,7 +23,7 @@
         body {
             background: url('img/bg-nosotros.jpg') center top no-repeat;
         }
-        section {
+        article {
             height: 720px;
         }
         #secNosotros {
@@ -128,6 +128,11 @@
             background: #15945a;
             height: 30px;
         }
+        @media (max-width:576px) {
+            body {
+                position: absolute;
+            }
+        }
     </style>
 
   </head>
@@ -156,11 +161,11 @@
             <!--Contenido Page-->
             <div class="container p-5">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <h6 class="pb-3">Nosotros</h6>
                         <p class="display-5 pt-2">Somos una empresa familiar dedicada a contribuir al desarrollo de la industria nacional</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <img src="img/curva-page.svg" alt="" class="curva-texto img-fluid">
                         <p>Queremos ser la mejor empresa comercializadora de soluciones integrales y altamente especializadas a través de propuestas innovadoras. Ya próximos a pasar a la tercera generación, mantenemos y promovemos el espíritu familiar, el trabajo en equipo, la pasión por los detalles y el servicio a nuestros clientes.</p>
                     </div>
@@ -168,35 +173,35 @@
             </div>
             
             <!--Nosotros-->
-            <section id="secNosotros">
+            <article id="secNosotros">
                 <div class="container">
                     <div class="row">
                         <div class="h720 d-flex align-items-center">
-                            <div class="col-2">
+                            <div class="col-md-1">
                                 <img src="img/col-izq-img.png" alt="img-fluid">
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-10">
                                 <p class="lead">El 1º de agosto de 1945, Guillermo y Rodolfo Blum fundaron Blum Hermanos Ltda; la primera empresa con la que comenzaríamos esta larga trayectoria, la cual se encargaba de importar y comercializar productos químicos.</p>
                             </div>
-                            <div class="col-2">
-                                    <img src="img/col-der-img.png" alt="img-fluid">
+                            <div class="col-md-1">
+                                <img src="img/col-der-img.png" alt="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!--Historia-->
-            <section id="secHistoria">
+            <article id="secHistoria">
                 <div class="container py-5 h720 d-flex align-items-center">
                     <div class="row ">
-                        <div class="col-5 align-self-start">
+                        <div class="col-md-5 align-self-start">
                             <h2 class="text-center">Nuestra historia</h2>
                         </div>
-                        <div class="col-1">
+                        <div class="col-md-1">
                             <img src="img/curva-horizontal.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <p class="pt-4">En la década de los ’60, Blum Hermanos Ltda. se consolida y se transforma en una de las principales empresas del rubro, con la mayor cantidad de productos en el mercado nacional.<br>
                             Con la apertura económica de Chile, se retoma la senda del crecimiento y esta empresa se concentra en especialidades químicas e ingredientes para la industria alimentaria y farmacéutica pasando a llamarse Blumos S.A.	<br>
                             Al año 2000, nuestra empresa crece sostenidamente y se convierte en una de las principales abastecedoras de ingredientes especiales para la industria alimentaria de Chile; lugar que mantenemos actualmente ya entrando en la tercera generación como Blumos Ltda. La tradición familiar, la calidad de nuestros productos, la constante innovación y el trabajo “duro y bien hecho” de todos los colaboradores, son los pilares fundamentales del éxito y reconocimiento de Blumos en el mercado.
@@ -204,29 +209,29 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!--Grupo-->
-            <section id="secGrupo">
+            <article id="secGrupo">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6 pt-5 mt-5">
+                        <div class="col-md-6 pt-5 mt-5">
                             <h2 class="pb-5">Nuestro grupo</h2>
                             <p class="pl-md-5 p-3">
                                 Somos una empresa familiar dedicada a contribuir al desarrollo de la industria nacional. Queremos ser la mejor empresa comercializadora de soluciones integrales y altamente especializadas a través de propuestas innovadoras. Ya próximos a pasar a la tercera generación, mantenemos y promovemos el espíritu familiar, el trabajo en equipo, la pasión por los detalles y el servicio a nuestros clientes.
                             </p>
                         </div>
-                        <div class="col-6 col-grupo">
+                        <div class="col-md-6 col-grupo">
                             <img src="img/img-grupo.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="container mt-5">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <h6 class="pb-3">Empresas</h6>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/curva-page.svg" alt="" class="curva-texto img-fluid">
                         </div>
                     </div>
@@ -237,7 +242,7 @@
                 <!--Empresas-->
                 <div class="container mt-3">
                     <div class="row no-gutters">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <div class="cuadrito">
                                 <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo">
@@ -269,7 +274,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mt-5 pt-3">
+                        <div class="col-md-4 mt-5 pt-3">
                             <div class="cuadrito">
                                 <img src="img/empresas/02blumos.png" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo2">
@@ -301,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mt-5 pt-5">
+                        <div class="col-md-4 mt-5 pt-5">
                             <div class="cuadrito">
                                 <img src="img/empresas/01blumos.png" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo">
@@ -335,37 +340,37 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
 
             <!--Internacional-->
-            <section id="secInter">
+            <article id="secInter">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-md-12">
                             <h2>Internacional</h2>
                         </div>
                     </div>
                     <div class="row der-iner">
-                        <div class="col-6"></div>
-                        <div class="col-5">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-5">
                             <img src="img/ico-plantas.png" alt="" align="left" class=" pr-1"> <h5 class="pt-2">Plantas</h5>
                             <img src="img/ico-oficinas.png" alt="" align="left" class=" pr-1"><h5 class="pt-2">Oficinas comerciales</h5>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-5">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-5">
                             <h5 class="pb-4">Contamos con presencia internacional desde el año 2011, cuando la compañía se asocia con una empresa joven en Sao Paulo, Brasil, formando R&S Blumos Ingredientes. </h5>
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-3"></div>
-                        <div class="col-7">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-7">
                             <p>En 2015 forma Sonutra Blumos en Lima, Perú Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="row mt-5 pt-5">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <h5 class="pb-4">Perú</h5>
                             <p><strong>Sonutra Blumos</strong></p>
                             <p>
@@ -380,8 +385,8 @@
                                 <a href="">www.sonutrablumos.com</a>
                             </p>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-3">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
                                 <h5 class="pb-4">Brasil</h5>
                                 <p><strong>R&S Btlumos</strong></p>
                                 <p>
@@ -398,7 +403,7 @@
                             </div>
                     </div>
                 </div>
-            </section>
+            </article>
             
         </div><!--Fin content-->
     </div><!--Fin wrapper-->
