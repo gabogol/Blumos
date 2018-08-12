@@ -313,6 +313,22 @@ li {
     margin-bottom: 20px;
 }
 
+/********** Menu Mobile *********+*/
+.navmobile {
+    background: url('../img/bgmenumobile.png') center top no-repeat;
+    background-size: cover;
+}
+.logomobile {
+    padding: 1.5em 1em 0 0;
+    width: 75%;
+}
+.cerrar2 {
+    max-width: 15%;
+    padding: 2em 0 0 1em;
+    cursor: pointer;
+}
+
+
 /********** Botonoes *********+*/
 
 #sidebarCollapse {
@@ -405,6 +421,25 @@ li {
         }
     }
     /********** 768px *********+*/
+    .buscamobile .buscar {
+        width: 40%;
+        margin: 0 5%;
+    }
     
     /********** 576px *********+*/
+    @media (max-width:576px) {
+        .logomobile {
+            padding: 1em .5em 0 0;
+            width: 120%;
+        }
+        .cerrar2 {
+            max-width: 20%;
+            padding: 2em 0 0 1em;
+            cursor: pointer;
+        }
+        .buscamobile .buscar {
+            width: 70%;
+            margin: 0;
+        }
+    }
     
