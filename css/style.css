@@ -421,10 +421,37 @@ li {
         }
     }
     /********** 768px *********+*/
-    .buscamobile .buscar {
-        width: 40%;
-        margin: 0 5%;
+    @media (max-width: 768px) {
+        .logomobile {
+            padding: 1em .5em 0 0;
+            width: 110%;
+        }
+        .cerrar2 {
+            max-width: 20%;
+            padding: 2em 0 0 1em;
+            cursor: pointer;
+        }
+        .buscamobile .buscar {
+            width: 40%;
+            margin: 0 5%;
+        }
+        /* MM */
+        #mm01 {
+            background: url('../img/mm01.png') top center no-repeat;
+            background-size: contain;
+            z-index: 10;
+            height: 331px;
+
+        }
+        #mm02 {
+            background: url('../img/mm02.png') top center no-repeat;
+            background-size: contain;
+            z-index: 9;
+            margin-top: -10px;
+            height: 352px;
+        }
     }
+    
     
     /********** 576px *********+*/
     @media (max-width:576px) {
