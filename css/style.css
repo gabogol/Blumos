@@ -313,6 +313,22 @@ li {
     margin-bottom: 20px;
 }
 
+/********** Menu Mobile *********+*/
+.navmobile {
+    background: url('../img/bgmenumobile.png') center top no-repeat;
+    background-size: cover;
+}
+.logomobile {
+    padding: 1.5em 1em 0 0;
+    width: 75%;
+}
+.cerrar2 {
+    max-width: 15%;
+    padding: 2em 0 0 1em;
+    cursor: pointer;
+}
+
+
 /********** Botonoes *********+*/
 
 #sidebarCollapse {
@@ -326,10 +342,16 @@ li {
     width: 100%;
     color:#cecece;
     margin-top: -30px;
+    padding-top: 5%;
 }
 
 .container-footer {
     background: #214295;
+}
+
+.prefooter {
+    background: #15945a;
+    height: 30px;
 }
 
 .buscar {
@@ -386,6 +408,117 @@ li {
     to { opacity: 1; }
 }
 
+/********* Contenido Nosotros ***********/
+
+.pagina-nosotros article {
+    height: 720px;
+}
+
+#secNosotros {
+    background: url('../img/bg-nos-azul.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -42px;
+    z-index: 2;
+    position: relative;
+}
+#secHistoria {
+    background: url('../img/bg-historia.jpg') center top no-repeat;
+    z-index: 1;
+}
+#secGrupo {
+   height: auto;
+}
+#secInter {
+    background: url('../img/america.png') top left no-repeat;
+    background-size: 40%;
+    height: auto;
+    padding: 5% 0;
+}
+.der-iner {
+    margin: 15% 0;
+}
+.col-grupo {
+    margin-top:-100px;
+}
+.pagina-nosotros .h720 {
+    height: 720px;
+}
+.pagina-nosotros .lead {
+    font-size: 30px;
+    font-weight: 300;
+}
+.pagina-nosotros .display-5 {
+    color: #214295;
+    font-size: 38px;
+    line-height: 43px;
+}
+.pagina-nosotros .curva-texto {
+    margin-left: -50px;
+}
+.cuadrito {
+    position: relative;
+    width: 100%;
+}
+.cuadrito:hover .fondo {
+    opacity: 1;
+}
+.cuadrito:hover .fondo2 {
+    opacity: 1;
+}
+
+.img-cuadrito {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.pagina-nosotros .fondo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url('../img/empresas/01over.png');
+    background-size: cover;
+}
+.pagina-nosotros .fondo2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url('../img/empresas/02over.png');
+    background-size: cover;
+}
+.textito {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+@media (max-width:576px) {
+    body {
+        position: absolute;
+    }
+}
+
 /********* Forms **********+*/
 
 /*********** Misc ********+*/
@@ -405,6 +538,52 @@ li {
         }
     }
     /********** 768px *********+*/
+    @media (max-width: 768px) {
+        .logomobile {
+            padding: 1em .5em 0 0;
+            width: 110%;
+        }
+        .cerrar2 {
+            max-width: 20%;
+            padding: 2em 0 0 1em;
+            cursor: pointer;
+        }
+        .buscamobile .buscar {
+            width: 40%;
+            margin: 0 5%;
+        }
+        /* MM */
+        #mm01 {
+            background: url('../img/mm01.png') top center no-repeat;
+            background-size: contain;
+            z-index: 10;
+            height: 331px;
+
+        }
+        #mm02 {
+            background: url('../img/mm02.png') top center no-repeat;
+            background-size: contain;
+            z-index: 9;
+            margin-top: -10px;
+            height: 352px;
+        }
+    }
+    
     
     /********** 576px *********+*/
+    @media (max-width:576px) {
+        .logomobile {
+            padding: 1em .5em 0 0;
+            width: 120%;
+        }
+        .cerrar2 {
+            max-width: 20%;
+            padding: 2em 0 0 1em;
+            cursor: pointer;
+        }
+        .buscamobile .buscar {
+            width: 70%;
+            margin: 0;
+        }
+    }
     

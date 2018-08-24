@@ -1,24 +1,33 @@
   <!--Footer-->
     <!--?php if (is_home) {} else {?-->
-	<footer class="footer">
-        <div class="container pt-4 pb-5">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-3 text-center">
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 ml-auto prefooter"></div>
+            </div>
+        </div>
+        <div class="container-fluid container-footer pt-4 pb-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 text-center">
                     <img src="<?php bloginfo( 'template_url' ); ?>/img/logo-f.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-5">
-                    <p class="text-center pt-3">Blumos todos los derechos reservados - 2018</p>
-                </div>
-                <div class="col-lg-2 d-none d-lg-block">
-                    <input class="form-control buscar text-center" type="text" placeholder="">
-                </div>
-                <div class="col-lg-2 d-none d-lg-inline-flex">
-                    <div class="idioma-footer"><a href="#">ES</a></div>
-                    <div class="idioma-footer"><a href="#">EN</a></div>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="text-center pt-3">Blumos todos los derechos reservados - 2018</p>
+                    </div>
+                    <div class="col-lg-2 d-none d-lg-block">
+                        <input class="form-control buscar text-center" type="text" placeholder="">
+                    </div>
+                    <div class="col-lg-2 d-none d-lg-inline-flex">
+                        <div class="idioma-footer"><a href="#">ES</a></div>
+                        <div class="idioma-footer"><a href="#">EN</a></div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    
 	<!--?php } ?-->
 
     <!-- Optional JavaScript -->
