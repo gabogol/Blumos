@@ -239,16 +239,16 @@
                         </div>
                         <div class="col-md-1"></div>
                         <div class="col-md-3">
-                                <h5 class="pb-4"><?php the_field( "pais_2" ); ?></h5>
-                                <p><strong><?php the_field( "pais_2_sub" ); ?></strong></p>
-                                <p>
-                                    <?php the_field( "pais_2_txt" ); ?>
-                                </p>
-                                <p>
-                                    Tel: <strong><?php the_field( "pais_2_tel" ); ?></strong>
-                                    <a href="<?php the_field( "pais_2_link" ); ?>" target="_blank"><?php the_field( "pais_1_link_txt" ); ?></a>
-                                </p>
-                            </div>
+                            <h5 class="pb-4"><?php the_field( "pais_2" ); ?></h5>
+                            <p><strong><?php the_field( "pais_2_sub" ); ?></strong></p>
+                            <p>
+                                <?php the_field( "pais_2_txt" ); ?>
+                            </p>
+                            <p>
+                                Tel: <strong><?php the_field( "pais_2_tel" ); ?></strong>
+                                <a href="<?php the_field( "pais_2_link" ); ?>" target="_blank"><?php the_field( "pais_1_link_txt" ); ?></a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </article>
