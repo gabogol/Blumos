@@ -519,6 +519,45 @@ li {
     }
 }
 
+/********* Contenido Valores **********/
+.pagina-valores article {
+    height: 700px;
+}
+.pagina-valores article h3 {
+    font-weight: 600;
+    font-size: 43px;
+}
+#secCalidad {
+    background: url('../img/secCalidad.jpg') center top no-repeat;
+}
+#secTrabajo {
+    background: url('../img/secTrabajo.jpg') center top no-repeat;
+}
+#secEficiencia {
+    background: url('../img/secEficiencia.jpg') center top no-repeat;
+}
+#secConfianza {
+    background: url('../img/secConfianza.jpg') center top no-repeat;
+}
+#secResponsabilidad {
+    background: url('../img/secResponsabilidad.jpg') center top no-repeat;
+}
+.pagina-valores .lead {
+    font-size: 30px;
+    font-weight: 500;
+}
+.texto-color {
+    font-style: italic;
+    color: #214295;
+}
+@media (max-width: 768px) {
+    .pagina-valores article {
+        height: auto;
+    }
+}
+
+
+
 /********* Forms **********+*/
 
 /*********** Misc ********+*/
