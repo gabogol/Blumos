@@ -37,4 +37,3 @@
 		background: #fff !important;
 	}
 </style>
-  <?php get_footer();?>
