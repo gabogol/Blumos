@@ -25,3 +25,4 @@
 	});
 	</script>
   </head>
+<div id="wptime-plugin-preloader"></div>
