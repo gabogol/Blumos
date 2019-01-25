@@ -19,17 +19,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-overflow-scrolling: touch;
     color: #5b5b5b;
     height: 100%;
+    line-height: 140% !important;
     overflow-x: hidden !important;
     overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
 }
-
 
 
 /********** Links & type *********+*/
@@ -82,10 +89,8 @@ li {
 /********** Menu ****************/
 
 .navbar {
-	position:absolute;
-	top:-30px;
-	left:0;
-	right:0;
+    overflow: hidden;
+    align-items: start;
 }
 .navbar.int{
     position: relative;
@@ -209,7 +214,7 @@ li {
  }
  .vermas{
     background: url('../img/ver-mas.svg') no-repeat left center;
-    background-size: 10%;
+    background-size: 13%;
     padding-left: 25px;
     position: absolute;
     right: 10%;
@@ -241,9 +246,9 @@ li {
  }
  .caja p{
     top: auto;
-    bottom: 20%;
+    bottom: 12%;
     width: 59%;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 130%;
      transition: all 0.3s;
  }
@@ -331,6 +336,58 @@ li {
     max-width: 15%;
     padding: 2em 0 0 1em;
     cursor: pointer;
+}
+.menu-mobile {
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+.curvamobile {
+    background: url('../img/linea-curva.svg') no-repeat;
+    background-size: 250%;
+    background-position: left;
+    height: 10px;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    transition: all 0.3s;
+ }
+ .menu-mobile .col-12 {
+    filter: grayscale(100%) brightness(.9);
+    -webkit-filter: grayscale(100%) brightness(.9);
+    transition: ease-in .5s;
+ }
+ .menu-mobile .col-12:hover {
+    filter: grayscale(0%) brightness(1);
+    -webkit-filter: grayscale(0%) brightness(1);
+}
+.mm01 {
+    background: url('../img/1.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm02 {
+    background: url('../img/2.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm03 {
+    background: url('../img/3.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm04 {
+    background: url('../img/4.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm05 {
+    background: url('../img/5.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm06 {
+    background: url('../img/6.png') center center no-repeat;
+    background-size: 110%;
+}
+.mm07 {
+    background: url('../img/7.png') center center no-repeat;
+    background-size: 110%;
 }
 
 
@@ -518,11 +575,6 @@ li {
     text-align: left;
 }
 
-@media (max-width:576px) {
-    body {
-        position: absolute;
-    }
-}
 
 /********* Contenido Valores **********/
 .pagina-valores article {
@@ -583,13 +635,18 @@ li {
             width: 50%;
             margin: 0 auto;
         }
+        .caja .curva {
+            top: 22%;
+        }
+        .caja h3 {
+            top: 10%;
+        }
+        .lateral ul, .lateral form, .lateral .logo {
+            margin: 60px 0 20px 12%;
+        }
     }
     /********** 768px *********+*/
     @media (max-width: 768px) {
-        .logomobile {
-            padding: 1em .5em 0 0;
-            width: 110%;
-        }
         .cerrar2 {
             max-width: 20%;
             padding: 2em 0 0 1em;
@@ -599,30 +656,16 @@ li {
             width: 40%;
             margin: 0 5%;
         }
-        /* MM */
-        #mm01 {
-            background: url('../img/mm01.png') top center no-repeat;
-            background-size: contain;
-            z-index: 10;
-            height: 331px;
-
+        .navbar-brand {
+            max-width: 40%;
+            margin-right: 0;
         }
-        #mm02 {
-            background: url('../img/mm02.png') top center no-repeat;
-            background-size: contain;
-            z-index: 9;
-            margin-top: -10px;
-            height: 352px;
-        }
+        
+      
     }
-    
-    
+
     /********** 576px *********+*/
     @media (max-width:576px) {
-        .logomobile {
-            padding: 1em .5em 0 0;
-            width: 120%;
-        }
         .cerrar2 {
             max-width: 20%;
             padding: 2em 0 0 1em;
@@ -631,6 +674,58 @@ li {
         .buscamobile .buscar {
             width: 70%;
             margin: 0;
+        }
+        .navbar-brand    {
+            max-width: 60%;
+            margin-right: 0;
+        }
+        /** Menu Mobile **/
+        .lateral {
+            background: url(../img/img-lateral.png) no-repeat right top;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            float: left;
+            z-index: 10;
+            position: relative;
+            margin-left: -150px;
+            overflow: auto;
+            transition-delay: 1s;
+            transition: all 0.5s;
+        }
+        .lateral .logo {
+            width: 50%;
+            margin-bottom: 20px;
+            margin: 20px 0 20px 5%;
+        }
+        .caja {
+            height: 100%;
+            width: 100% !important;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: cover;
+            position: relative;
+            margin-top: 0;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            overflow: auto;
+        }
+        .central {
+            float: left;
+            width: 100%;
+            margin-left: 0;
+            z-index: 1;
+            height: 50vh;
+            position: relative;
+            background: #000;
+            margin-left: -300px;
+            overflow: a;
+            transition-delay: 1.5s;
+            transition: all 0.5s;
+            overflow: auto;
+        }
+        .abajo {
+            overflow: auto;
         }
     }
     

@@ -33,37 +33,49 @@
 
 
 <!--Menu-->
-      <div class="contenedor menu clearfix " id="Menu">
+      <div class="contenedor menu clearfix" id="Menu">
           <div class="lateral">
             <span class="cerrar">X</span>
-              <img src="<?php bloginfo( 'template_url' ); ?>/img/logo.svg" class="logo">
+			<style>
+				.cerrar{
+					position: absolute;
+					right: 25px;
+					top: 20px;
+					font-family: sans-serif;
+					font-weight: bold;
+					border: 0px solid #333;
+					padding: 2px 9px;
+					border-radius: 23px;
+					cursor: pointer;
+				}
+			</style>
+              <a href="/"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.svg" class="logo"></a>
               <ul>
                   <li><a href="<?php bloginfo('url');?>/home/">Inicio</a></li>
                   <li><a href="<?php bloginfo('url');?>/nosotros/">Corporativo</a></li>
                   <ul>
-                      <li><a href="#">Misión y visión</a></li>
-                      <li><a href="#">Valores</a></li>
-                      <li><a href="#">Historia</a></li>
-                      <li><a href="#">Holding</a></li>
-                      <li><a href="#">Presencia internacional</a></li>
+                      <li><a href="<?php bloginfo('url');?>/nosotros/">Nosotros</a></li>
+                      <li><a href="<?php bloginfo('url');?>/valores/">Valores</a></li>
+                      <!--li><a href="#">Historia</a></li-->
+                      <!--li><a href="#">Holding</a></li-->
+                      <!--li><a href="#">Presencia internacional</a></li-->
                       <li><a href="#">Certificaciones</a></li>
                     </ul>
                     <li><a href="#">Contacto</a></li>
                 </ul>
-                <ul>
+                <!--ul>
                     <li><a href="#">Trabaja con nosotros</a></li>
                 </ul>
                 <form>
-                    <input type="text" placeholder="Buscar">
-                </form>
-                <ul>
+                    <input type="text" placeholder=" Buscar">
+                </form-->
+                <!--ul>
                     <li><a href="#">EN</a></li>
                     <li><a href="#">ES</a></li>
-                </ul>
+                </ul-->
             </div>
             <div class="central">
                 <div class="caja tres">
-                    <span>.01</span>
                     <div class="curva"></div>
                     <h3>Alimentos</h3>
                     <p>Con nuestros ingredientes alimentarios y funcionales especializados, agregamos valor en todos tus proyectos</p>
@@ -77,36 +89,31 @@
                     <a class="vermas" href="<?php bloginfo('url');?>/industrias/farmaceutica/">Ver más información</a>
                     </div>
                     <div class="caja uno">
-                        <span>.03</span>
                         <div class="curva"></div>
                         <h3>Enología</h3>
-                        <p>Te ofrecemos soluciones para cada fase de vinificación, mejorando e innovando en calidad y deniendo el estilo del vino</p>
+                        <p>Te ofrecemos soluciones para cada fase de vinificación, mejorando e innovando en calidad y definiendo el estilo del vino</p>
                         <a class="vermas" href="<?php bloginfo('url');?>/industrias/enologia/">Ver más información</a>
                     </div>
                     <div class="abajo">
                         <div class="caja siete">
-                            <span>.04</span>
                             <div class="curva"></div>
                             <h3>Nutrición animal</h3>
                             <p>Te invitamos a conocer nuestros ingredientes y aditivos para nutrición animal y alimentación de mascotas</p>
                             <a class="vermas" href="<?php bloginfo('url');?>/industrias/nutricion-animal/">Ver más información</a>
                         </div>
                         <div class="caja seis">
-                        <span>.05</span>
                         <h3>Minería</h3>
                         <div class="curva"></div>
                         <p>Proveemos de sulfato de cobre pentahidratado de la más alta pureza del mercado a la Minera Anita ubicada en la Región de Atacama</p>
                         <a class="vermas" href="<?php bloginfo('url');?>/industrias/mineria/">Ver más información</a>
                     </div>
                     <div class="caja cinco">
-                        <span>.06</span>
                         <div class="curva"></div>
                         <h3>Sabores</h3>
                         <p>Trayectoria y experiencia en el mundo de los sabores nos permiten entregar propuestas únicas</p>
                         <a class="vermas" href="<?php bloginfo('url');?>/industrias/sabores/">Ver más información</a>
                     </div>
                     <div class="caja cuatro">
-                        <span>.07</span>
                         <div class="curva"></div>
                         <h3>Química industrial</h3>
                         <p>Brindamos especialidades para satisfacer todas tus necesidades en los mercados de house hold care e industrias en general</p>
@@ -115,5 +122,9 @@
                 </div>
             </div>
         </div>
+
+      
+  
+
       
     

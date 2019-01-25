@@ -2,7 +2,7 @@
 
 <?php get_header();?>
   <body style="background-image: url(<?php the_field( "imagen_de_fondo" ); ?>);">
-	 
+
   <?php get_header('menu');?>
 	
 	<?php putRevSlider("blumos") ?> 
@@ -37,3 +37,4 @@
 		background: #fff !important;
 	}
 </style>
+<?php get_footer('home');?>
