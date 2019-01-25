@@ -38,8 +38,8 @@
             <span class="cerrar">X</span>
               <img src="<?php bloginfo( 'template_url' ); ?>/img/logo.svg" class="logo">
               <ul>
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Corporativo</a></li>
+                  <li><a href="<?php bloginfo('url');?>/home/">Inicio</a></li>
+                  <li><a href="<?php bloginfo('url');?>/nosotros/">Corporativo</a></li>
                   <ul>
                       <li><a href="#">Misión y visión</a></li>
                       <li><a href="#">Valores</a></li>
@@ -65,13 +65,13 @@
                 <div class="caja tres">
                     <span>.01</span>
                     <div class="curva"></div>
-                    <h3>Ingredientes alimentarios</h3>
+                    <h3>Alimentos</h3>
                     <p>Con nuestros ingredientes alimentarios y funcionales especializados, agregamos valor en todos tus proyectos</p>
                     <a class="vermas" href="<?php bloginfo('url');?>/industrias/ingredientes-alimentarios/">Ver más información</a>
                 </div>
                     <div class="caja dos">
                     <span>.02</span>
-                    <h3>Farmacéutica</h3>
+                    <h3>Farma, Cosméticos y Nutracéuticos</h3>
                     <div class="curva"></div>
                     <p>Contamos con un amplio portafolio de activos y excipientes grado farmacéutico para facilitar y optimizar procesos productivos</p>
                     <a class="vermas" href="<?php bloginfo('url');?>/industrias/farmaceutica/">Ver más información</a>

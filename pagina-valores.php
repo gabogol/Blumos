@@ -27,10 +27,10 @@
               </div>
           </nav>
           <!--Cabecera Page-->
-            <div class="container">
+            <div class="container valores-cabecera">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2 class="pt-2 display-2"><?php the_title();?></h2>
+                        <h2 class="display-2 animated fadeInDown duration1 eds-on-scroll"><?php the_title();?></h2>
                     </div>
                 </div>
             </div>
@@ -41,10 +41,10 @@
             <article id="secCalidad">
                 <div class="container mt-5">
                     <div class="row pt-5">
-                        <div class="col-md-4 offset-md-1">
-                            <img src="<?php the_field( "img_calidad" ); ?>" alt="" class="img-fluid">
+                        <div class="col-md-4 offset-md-1 animated fadeInLeft duration1 eds-on-scroll">
+                            <img src="<?php the_field( "img_calidad" ); ?>" alt="" class="img-fluid animated fadeInLEft duration1 eds-on-scroll">
                         </div>
-                        <div class="col-md-7 text-center px-5">
+                        <div class="col-md-7 text-center px-5 animated fadeInRight duration1 eds-on-scroll">
                             <h3 class="pb-4"><?php the_field( "titulo_calidad" ); ?></h3>
                             <p class="lead"><?php the_field( "txt_calidad" ); ?></p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
@@ -57,12 +57,12 @@
             <article id="secTrabajo">
                 <div class="container">
                     <div class="row pt-5">
-                        <div class="col-md-7 text-center px-5">
+                        <div class="col-md-7 text-center px-5 animated fadeInLeft duration1 eds-on-scroll">
                             <h3 class="pb-4"><?php the_field( "titulo_trabajo" ); ?></h3>
                             <p class="lead"><?php the_field( "txt_trabajo" ); ?></p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
-                        <div class="col-md-4 offset-md-1"><img src="<?php the_field( "img_trabajo" ); ?>" alt="" class="img-fluid"></div>
+                        <div class="col-md-4 offset-md-1 animated fadeInRight duration1 eds-on-scroll"><img src="<?php the_field( "img_trabajo" ); ?>" alt="" class="img-fluid"></div>
                     </div>
                 </div>
             </article>
@@ -71,8 +71,8 @@
             <article id="secEficiencia">
                 <div class="container mt-5">
                     <div class="row pt-5">
-                        <div class="col-md-4 offset-md-1"><img src="<?php the_field( "img_eficiencia" ); ?>" alt="" class="img-fluid"></div>
-                        <div class="col-md-7 text-center px-5">
+                        <div class="col-md-4 offset-md-1 animated fadeInLeft duration1 eds-on-scroll"><img src="<?php the_field( "img_eficiencia" ); ?>" alt="" class="img-fluid"></div>
+                        <div class="col-md-7 text-center px-5 animated fadeInRight duration1 eds-on-scroll">
                             <h3 class="pb-4"><?php the_field( "titulo_eficiencia" ); ?></h3>
                             <p class="lead"><?php the_field( "txt_eficiencia" ); ?></p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
@@ -85,12 +85,12 @@
              <article id="secConfianza">
                 <div class="container">
                     <div class="row pt-5">
-                        <div class="col-md-7 text-center px-5">
+                        <div class="col-md-7 text-center px-5 animated fadeInLeft duration1 eds-on-scroll">
                             <h3 class="pb-4"><?php the_field( "titulo_confianza" ); ?></h3>
                             <p class="lead"><?php the_field( "txt_confianza" ); ?></p>
                             <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>
                         </div>
-                        <div class="col-md-4 offset-md-1"><img src="<?php the_field( "img_confianza" ); ?>" alt="" class="img-fluid"></div>
+                        <div class="col-md-4 offset-md-1 animated fadeInRight duration1 eds-on-scroll"><img src="<?php the_field( "img_confianza" ); ?>" alt="" class="img-fluid"></div>
                     </div>
                 </div>
             </article>
@@ -99,10 +99,10 @@
             <article id="secResponsabilidad">
                     <div class="container mt-5">
                         <div class="row pt-5">
-                            <div class="col-md-4 offset-md-1">
+                            <div class="col-md-4 offset-md-1 animated fadeInLeft duration1 eds-on-scroll">
                                 <img src="<?php the_field( "img_resp" ); ?>" alt="" class="img-fluid">
                             </div>
-                            <div class="col-md-7 text-center px-5">
+                            <div class="col-md-7 text-center px-5 animated fadeInRight duration1 eds-on-scroll">
                                 <h3 class="pb-4"><?php the_field( "titulo_resp" ); ?></h3>
                                 <p class="lead"><?php the_field( "txt_resp" ); ?></p>
                                 <i class="fas fa-quote-right fa-5x float-right" style="margin:-35px 55px 0 0;color:#214295;opacity:0.3;"></i>

@@ -21,8 +21,8 @@
                   <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <i class="fas fa-align-justify"></i>
                   </button>-->
-                  <a class="navbar-brand m-3 mr-5 mt-5 float-right" href="#">
-                    <img src="<?php bloginfo( 'template_url' ); ?>/img/logo-home.svg" alt="Blumos" class="img-fluid">
+                  <a class="navbar-brand mt-5" href="#">
+                  <img src="http://www.myapp.cl/clientes/blumos/wp-content/themes/Blumos-2018/img/logo-home.svg" alt="Blumos" class="imglogo float-right">
                 </a>
 
                 

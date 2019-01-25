@@ -31,11 +31,11 @@
           <!--Contenido Page-->
            <div class="container p-5">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 animated fadeInDown duration1 eds-on-scroll">
                         <h6 class="pb-3"><?php the_title();?></h6>
                         <p class="display-5 pt-2"><?php the_field( "bajada_principal" ); ?></p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 animated fadeInDown duration1 eds-on-scroll">
                         <img src="<?php bloginfo( 'template_url' ); ?>/img/curva-page.svg" alt="" class="curva-texto img-fluid">
                         <p><?php the_field( "txt_principal" ); ?></p>
                     </div>
@@ -47,13 +47,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="h720 d-flex align-items-center">
-                            <div class="col-md-1">
+                            <div class="col-md-1 animated fadeInLeft duration1 eds-on-scroll">
                                 <img src="<?php bloginfo( 'template_url' ); ?>/img/col-izq-img.png" alt="img-fluid">
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-10 animated fadeInDown duration1 eds-on-scroll">
                                 <p class="lead"><?php the_field( "txt_nosotros" ); ?></p>
                             </div>
-                            <div class="col-md-1">
+                            <div class="col-md-1 animated fadeInRight duration1 eds-on-scroll">
                                 <img src="<?php bloginfo( 'template_url' ); ?>/img/col-der-img.png" alt="img-fluid">
                             </div>
                         </div>
@@ -65,13 +65,13 @@
             <article id="secHistoria">
                 <div class="container py-5 h720 d-flex align-items-center">
                     <div class="row ">
-                        <div class="col-md-5 align-self-start">
+                        <div class="col-md-5 align-self-start animated fadeInLeft duration1 eds-on-scroll">
                             <h2 class="text-center"><?php the_field( "titulo_historia" ); ?></h2>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-md-1 animated fadeInDown duration1 eds-on-scroll">
                             <img src="<?php bloginfo( 'template_url' ); ?>/img/curva-horizontal.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeInRight duration1 eds-on-scroll">
                             <p class="pt-4"><?php the_field( "txt_historia" ); ?></p>
                         </div>
                     </div>
@@ -82,21 +82,21 @@
             <article id="secGrupo">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 pt-5 mt-5">
+                        <div class="col-md-6 pt-5 mt-5 animated fadeInLeft duration1 eds-on-scroll">
                             <h2 class="pb-5"><?php the_field( "titulo_grupo" ); ?></h2>
                             <p class="pl-md-5 p-3"><?php the_field( "txt_grupo" ); ?></p>
                         </div>
-                        <div class="col-md-6 col-grupo">
+                        <div class="col-md-6 col-grupo animated fadeInRight duration1 eds-on-scroll">
                             <img src="<?php the_field( "img_grupo" ); ?>" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="container mt-5">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeInLeft duration1 eds-on-scroll">
                             <h6 class="pb-3"><?php the_field( "titulo_empresas" ); ?></h6>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeInDown duration1 eds-on-scroll">
                             <img src="<?php bloginfo( 'template_url' ); ?>/img/curva-page.svg" alt="" class="curva-texto img-fluid">
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                  <!--Empresas-->
                  <div class="container mt-3">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
+                        <div class="col-md-4 animated fadeInLeft duration1 eds-on-scroll">
                             <div class="cuadrito">
                                 <img src="<?php the_field( "imagen_empresa_1" ); ?>" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo">
@@ -134,7 +134,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5 pt-3">
+                        <div class="col-md-4 mt-5 pt-3 animated fadeInDown duration1 eds-on-scroll">
                         <div class="cuadrito">
                                 <img src="<?php the_field( "imagen_empresa_4" ); ?>" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo2">
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5 pt-5">
+                        <div class="col-md-4 mt-5 pt-5 animated fadeInRight duration1 eds-on-scroll">
                         <div class="cuadrito">
                                 <img src="<?php the_field( "imagen_empresa_7" ); ?>" alt="Blumos" class="img-cuadrito">
                                 <div class="fondo">
@@ -200,13 +200,13 @@
              <article id="secInter">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 animated fadeInDown duration1 eds-on-scroll">
                             <h2><?php the_field( "titulo_internacional" ); ?></h2>
                         </div>
                     </div>
                     <div class="row der-iner">
                         <div class="col-md-6"></div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 animated fadeInLeft duration1 eds-on-scroll">
                             <img src="<?php the_field( "icono_plantas" ); ?>" alt="" class="float-left pr-1"> 
                             <h5 class="pt-2"><?php the_field( "titulo_plantas" ); ?></h5>
                             <img src="<?php the_field( "icono_oficinas" ); ?>" alt="" class="float-left pr-1">
@@ -215,18 +215,18 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3"></div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 animated fadeInDown duration1 eds-on-scroll">
                             <h5 class="pb-4"><?php the_field( "bajada_internacional" ); ?></h5>
                         </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-md-3"></div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 animated fadeInLeft duration1 eds-on-scroll">
                             <p><?php the_field( "txt_internacional" ); ?></p>
                         </div>
                     </div>
                     <div class="row mt-5 pt-5">
-                        <div class="col-md-3">
+                        <div class="col-md-3 animated fadeInLeft duration1 eds-on-scroll">
                             <h5 class="pb-4"><?php the_field( "pais_1" ); ?></h5>
                             <p><strong><?php the_field( "pais_1_sub" ); ?></strong></p>
                             <p>
@@ -238,7 +238,7 @@
                             </p>
                         </div>
                         <div class="col-md-1"></div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 animated fadeInRight duration1 eds-on-scroll">
                             <h5 class="pb-4"><?php the_field( "pais_2" ); ?></h5>
                             <p><strong><?php the_field( "pais_2_sub" ); ?></strong></p>
                             <p>

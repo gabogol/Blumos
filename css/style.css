@@ -91,6 +91,11 @@ li {
     position: relative;
 }
 
+.imglogo {
+    max-width: 80%;
+    height: auto;
+}
+
 .contenedor{
     width: 107%;
     transition: 0.5s;
@@ -521,26 +526,29 @@ li {
 
 /********* Contenido Valores **********/
 .pagina-valores article {
-    height: 700px;
+    height: 500px;
 }
 .pagina-valores article h3 {
     font-weight: 600;
     font-size: 43px;
 }
+.valores-cabecera {
+    margin-top: -50px;
+}
 #secCalidad {
-    background: url('../img/secCalidad.jpg') center top no-repeat;
+    background: url('../img/secCalidad.png') center top no-repeat;
 }
 #secTrabajo {
-    background: url('../img/secTrabajo.jpg') center top no-repeat;
+    background: url('../img/secTrabajo.png') center top no-repeat;
 }
 #secEficiencia {
-    background: url('../img/secEficiencia.jpg') center top no-repeat;
+    background: url('../img/secEficiencia.png') center top no-repeat;
 }
 #secConfianza {
-    background: url('../img/secConfianza.jpg') center top no-repeat;
+    background: url('../img/secTrabajo.png') center top no-repeat;
 }
 #secResponsabilidad {
-    background: url('../img/secResponsabilidad.jpg') center top no-repeat;
+    background: url('../img/secEficiencia.png') center top no-repeat;
 }
 .pagina-valores .lead {
     font-size: 30px;
